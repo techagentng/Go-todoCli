@@ -52,6 +52,8 @@ func main(){
 	newTodo1.addTodo("Read about maps in golang", false)
 	newTodo1.addTodo("Read about struct in golang", false)
 	newTodo1.addTodo("Read algorithm", false)
-	newTodo1.readTask("")
-	fmt.Println(newTodo1.readTask("Read about struct in golang"))
+	newTodo1.addTodo("xxxxxxxxxx", false)
+	fmt.Println(newTodo1.todoList)
+	//newTodo1.readTask("")
+	//fmt.Println(newTodo1.readTask("Read about struct in golang"))
 }
